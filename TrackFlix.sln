@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackFlix.Domain", "TrackFlix.Domain\TrackFlix.Domain.csproj", "{BBA24347-0A98-4E2E-BD68-FE585BA0A5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackFlix.Application", "TrackFlix.Application\TrackFlix.Application.csproj", "{110D85FD-296B-488D-8CBF-1EDE0218B3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackFlix.Infrastructure", "TrackFlix.Infrastructure\TrackFlix.Infrastructure.csproj", "{8BA2111D-58A1-47DC-A874-C0D026473433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackFlix.API", "TrackFlix.API\TrackFlix.API.csproj", "{B8D8A512-C34E-4A34-93DA-7059F846DF33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA24347-0A98-4E2E-BD68-FE585BA0A5B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA24347-0A98-4E2E-BD68-FE585BA0A5B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA24347-0A98-4E2E-BD68-FE585BA0A5B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA24347-0A98-4E2E-BD68-FE585BA0A5B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110D85FD-296B-488D-8CBF-1EDE0218B3B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110D85FD-296B-488D-8CBF-1EDE0218B3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110D85FD-296B-488D-8CBF-1EDE0218B3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110D85FD-296B-488D-8CBF-1EDE0218B3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA2111D-58A1-47DC-A874-C0D026473433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA2111D-58A1-47DC-A874-C0D026473433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA2111D-58A1-47DC-A874-C0D026473433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA2111D-58A1-47DC-A874-C0D026473433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D8A512-C34E-4A34-93DA-7059F846DF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D8A512-C34E-4A34-93DA-7059F846DF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D8A512-C34E-4A34-93DA-7059F846DF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D8A512-C34E-4A34-93DA-7059F846DF33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
