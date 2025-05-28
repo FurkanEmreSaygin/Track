@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrackFlix.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f73967ee4280b9e451eaafd70a3f171442e9d716")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c2d4d778b3c8f554c7a3fd9cd4ad15d8d9ca521")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrackFlix.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrackFlix.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
