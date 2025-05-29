@@ -4,8 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TrackFlix.Domain;
+using TrackFlix.Domain.Interfaces;
 using TrackFlix.Infrastructure.Data;
-using TrackFlix.Infrastructure.Interfaces;
 
 namespace TrackFlix.Infrastructure.Repositories
 {

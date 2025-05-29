@@ -1,0 +1,12 @@
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\bin\Debug\net9.0\TrackFlix.Domain.deps.json
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\bin\Debug\net9.0\TrackFlix.Domain.dll
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\bin\Debug\net9.0\TrackFlix.Domain.pdb
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.AssemblyInfoInputs.cache
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.AssemblyInfo.cs
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.csproj.CoreCompileInputs.cache
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.sourcelink.json
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.dll
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\refint\TrackFlix.Domain.dll
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\TrackFlix.Domain.pdb
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Domain\obj\Debug\net9.0\ref\TrackFlix.Domain.dll

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YdFHHZdRUeTB68/lvTstvAsauiceHdAZgi3Qhc+eLqw=",
+  "Source": "TrackFlix.API",
+  "BasePath": "_content/TrackFlix.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

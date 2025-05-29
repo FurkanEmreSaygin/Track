@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TrackFlix.Domain;
 
-namespace TrackFlix.Infrastructure.Interfaces
+namespace TrackFlix.Domain.Interfaces
 {
     public interface IShowRepository
     {
