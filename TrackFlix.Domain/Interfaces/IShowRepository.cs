@@ -10,6 +10,7 @@ namespace TrackFlix.Domain.Interfaces
     {
         Task<List<Show>> GetAllAsync();
         Task<Show?> GetByIdAsync(int id);
+        Task<List<Show>> GetAllPublishedAsync();
         Task AddAsync(Show show);
         Task UpdateAsync(Show show);
         Task DeleteAsync(Show show);

@@ -26,20 +26,31 @@ namespace TrackFlix.Application.Services
         public async Task<ShowDto> CreateShowAsync(CreateShowDto showDto)
         {
             var show = _mapper.Map<Show>(showDto);
+            if (show.ReleaseDate > DateTime.UtcNow.AddYears(10))
+                throw new Exception("Çok uzak bir tarihte yayınlanamaz.");
             await _repo.AddAsync(show);
             await _repo.SaveChangesAsync();
             return _mapper.Map<ShowDto>(show);
         }
 
-        public Task<bool> DeleteShowAsync(int id)
+        public async Task<bool> DeleteShowAsync(int id)
         {
-            throw new NotImplementedException();
+            var show = await _repo.GetByIdAsync(id);
+            if (show == null) return false;
+            await _repo.DeleteAsync(show);
+            return await _repo.SaveChangesAsync();
+        }
+
+        public async Task<List<ShowDto>> GetAllPublishedAsync()
+        {
+            var shows = await _repo.GetAllPublishedAsync();
+            return _mapper.Map<List<ShowDto>>(shows);
         }
 
         public async Task<List<ShowDto>> GetAllShowsAsync()
         {
-            var show = await _repo.GetAllAsync();
-            return _mapper.Map<List<ShowDto>>(show);
+            var shows = await _repo.GetAllAsync();
+            return _mapper.Map<List<ShowDto>>(shows);
         }
 
         public async Task<ShowDto?> GetShowByIdAsync(int id)
@@ -52,9 +63,13 @@ namespace TrackFlix.Application.Services
             return _mapper.Map<ShowDto>(show);
         }
 
-        public Task<bool> UpdateShowAsync(int id, UpdateShowDto showDto)
+        public async Task<bool> UpdateShowAsync(int id, UpdateShowDto showDto)
         {
-            throw new NotImplementedException();
+            var show = await _repo.GetByIdAsync(id);
+            if (show == null) return false;
+            _mapper.Map(showDto, show);
+            await _repo.UpdateAsync(show);
+            return await _repo.SaveChangesAsync();
         }
     }
 }

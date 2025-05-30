@@ -32,6 +32,11 @@ namespace TrackFlix.Infrastructure.Repositories
             return await _repo.Shows.ToListAsync();
         }
 
+        public async Task<List<Show>> GetAllPublishedAsync()
+        {
+            return await _repo.Shows.Where(s => s.IsPublished).ToListAsync();
+        }
+
         public async Task<Show?> GetByIdAsync(int id)
         {
             return await _repo.Shows.FindAsync(id);

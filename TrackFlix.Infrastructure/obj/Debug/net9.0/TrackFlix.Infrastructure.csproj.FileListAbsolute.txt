@@ -1,4 +1,5 @@
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\bin\Debug\net9.0\TrackFlix.Infrastructure.deps.json
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\bin\Debug\net9.0\TrackFlix.Infrastructure.runtimeconfig.json
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\bin\Debug\net9.0\TrackFlix.Infrastructure.dll
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\bin\Debug\net9.0\TrackFlix.Infrastructure.pdb
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\bin\Debug\net9.0\TrackFlix.Domain.dll
@@ -13,4 +14,5 @@ C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\obj\Debug\net9.0\T
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\obj\Debug\net9.0\TrackFlix.Infrastructure.dll
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\obj\Debug\net9.0\refint\TrackFlix.Infrastructure.dll
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\obj\Debug\net9.0\TrackFlix.Infrastructure.pdb
+C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\obj\Debug\net9.0\TrackFlix.Infrastructure.genruntimeconfig.cache
 C:\Users\furky\Desktop\TrackPc\Track\TrackFlix.Infrastructure\obj\Debug\net9.0\ref\TrackFlix.Infrastructure.dll
