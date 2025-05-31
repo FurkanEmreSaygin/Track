@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrackFlix.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4aa325a9716f8695013b068cc56af5736e817bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bb933ca2e7e322ef422ffedfd1bd6c8b45bad0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrackFlix.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrackFlix.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

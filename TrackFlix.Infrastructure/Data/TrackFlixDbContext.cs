@@ -15,6 +15,7 @@ namespace TrackFlix.Infrastructure.Data
         }
 
         public DbSet<Show> Shows { get; set; }
+        public DbSet<User> Users { get; set; }
 
     }
 }

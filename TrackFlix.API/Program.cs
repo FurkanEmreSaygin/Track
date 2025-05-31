@@ -24,6 +24,9 @@ builder.Services.AddAutoMapper(typeof(ShowProfile).Assembly);
 builder.Services.AddScoped<IShowRepository, EfShowRepository>();
 builder.Services.AddScoped<IShowService, ShowService>();
 
+builder.Services.AddScoped<IUserRepository, EfUserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
+
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {
